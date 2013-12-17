@@ -1,0 +1,47 @@
+You need to have special flex_dict.txt file.
+This will generate new file with sorted words
+g++ sort_dictionary.cpp -o sort_dictionary
+./sort_dictionary < flex_dict.txt 
+
+Words are encoded in: latin2 / ISO8859-2
+
+example:
+
+input:
+
+...
+1000027: EAABA
+ 1 - ten
+ 2 - tego
+ 3 - temu
+ 4 - tego
+ 5 - tym
+ 6 - tym
+ 7 - ten
+ 8 - ci
+ 9 - tych
+ 10 - tym
+ 11 - tych
+ 12 - tymi
+ 13 - tych
+ 14 - ci
+...
+
+output:
+...
+90606:ten:EAABA:pro
+ 1 - ten
+ 2 - tego
+ 3 - temu
+ 4 - tego
+ 5 - tym
+ 6 - tym
+ 7 - ten
+ 8 - ci
+ 9 - tych
+ 10 - tym
+ 11 - tych
+ 12 - tymi
+ 13 - tych
+ 14 - ci
+...
