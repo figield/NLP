@@ -1,0 +1,559 @@
+#!/bin/sh
+# 
+# Pik ¼ród³owy ze wzorami odmiany
+# Master Polish affix file
+#
+# Copyright (C) 1997 Waldemar Hebisch 
+#
+# Yoy may use this program for any purpose.
+#
+# Niniejszym wyra¿am zgodê na u¿ycie tego pliku w dowolny sposób. 
+#
+#*******************************************************************
+#
+# Run trough shell to expand
+#
+#*******************************************************************
+
+cat << "EOF"
+#
+# $Id: pol.aff
+# DO NOT EDIT - This file is automaticaly generated
+# Proszê nie edytowaæ - ten plik jest generowany automatycznie
+#
+# Copyright (C) 1997 Waldemar Hebisch 
+#
+# Yoy may use this program for any purpose.
+#
+# Niniejszym wyra¿am zgodê na u¿ycie tego pliku w dowolny sposób. 
+#
+
+nroffchars ().\\*
+texchars ()\[]{}<\>\\$*.%
+
+# And now to the Polish table itself
+
+#flagmarker |
+
+defstringtype "list" "TeX" ".txt"
+
+wordchars a A
+stringchar ± ¡
+wordchars [b-c] [B-C]
+stringchar æ Æ
+wordchars [de] [DE]
+stringchar ê Ê
+wordchars [f-l] [F-L]
+stringchar ³ £
+wordchars [mn] [MN]
+stringchar ñ Ñ 
+wordchars o O
+stringchar ó Ó
+wordchars [p-s] [P-S]
+stringchar ¶ ¦
+wordchars [t-z] [T-Z]
+stringchar ¼ ¬
+stringchar ¿ ¯
+
+altstringtype "Latex" "TeX" ".tex"
+
+altstringchar  \"a ±
+altstringchar  \"A ¡
+altstringchar  \"c æ
+altstringchar  \"C Æ
+altstringchar  \"e ê
+altstringchar  \"E Ê
+altstringchar  \"l ³
+altstringchar  \"L £
+altstringchar  \"n ñ
+altstringchar  \"N Ñ
+altstringchar  \"o ó
+altstringchar  \"O Ó
+altstringchar  \"s ¶
+altstringchar  \"S ¦
+altstringchar  \"z ¿
+altstringchar  \"Z ¯
+altstringchar  \"x ¼
+altstringchar  \"X ¬
+
+altstringtype "mex" "TeX" ".tex"
+
+altstringchar  /a ±
+altstringchar  /A ¡
+altstringchar  /c æ
+altstringchar  /C Æ
+altstringchar  /e ê
+altstringchar  /E Ê
+altstringchar  /l ³
+altstringchar  /L £
+altstringchar  /n ñ
+altstringchar  /N Ñ
+altstringchar  /o ó
+altstringchar  /O Ó
+altstringchar  /s ¶
+altstringchar  /S ¦
+altstringchar  /z ¿
+altstringchar  /Z ¯
+altstringchar  /x ¼
+altstringchar  /X ¬
+
+
+# Here's a record of flags used, in case you want to add new ones.
+# Right now, we fit within the minimal MASKBITS definition.
+#
+#            ABCDEFGHIJKLMNOPQRSTUVWXYZ
+# Used:      ***                **** **
+#            ABC                TUVW YZ
+# Available:    ----------------    -  
+#               DEFGHIJKLMNOPQRS    X  
+#prefixes
+#flag *P:
+#. > do
+#. > na
+#. > nad
+##. > nade
+#. > o
+#. > od
+#. > po
+#. > pod
+#. > pode
+#. > prze
+#. > przy
+#. > roz
+#. > s
+#. > u
+#. > w
+#. > wy
+#. > z
+#. > za
+#. > ze
+
+suffixes
+
+# Przymiotniki 
+flag Z:
+# Przymiotniki z tematem zakoñczonym na spó³g³oskê tward± lub funkcjonalnie 
+# miêkk±
+#
+	[^kglijy] y > -y,y
+	[^kglijy] y > -y,ego
+	[^kglijy] y > -y,ej
+	[^kglijy] y > ch
+	[^kglijy] y > -y,emu
+	[^kglijy] y > m
+	[^kglijy] y > -y,±
+	[^kglijy] y > -y,e
+	[^kglijy] y > -y,a
+	[^kglijy] y > mi
+#
+# 
+# Przymiotniki z tematem zakoñczonym na spó³g³oskê miêkk±
+#
+# Przyk³ad: g³upi sokoli
+#     Mêski   ¯eñski  Nijaki     Mêskoosobowy  ¯eñskorzeczowy
+#	i	a	e		i		e
+   [^i] i > -i,i
+   [^il] i > ego
+   l i > -i,ego
+   [^il] i > ej
+   l i > -i,ej
+   [^i]	i > ch
+   [^il] i > emu
+   l i > -i,emu
+   [^i]	i > m
+ [^kgli] i > ±
+  [kgl] i > -i,±
+   [^il] i > e
+   l i > -i,e
+ [^kgli] i > a
+  [kgl] i > -i,a
+   [^i]	i > mi
+# 
+# Koñcówki mianownika liczby mnogiej:
+ [bmpsw] y > -y,i
+ [^o] n y > -y,i
+ [³w] o n y > -y,i
+ [^³w] o n y > -ony,eni
+ [^s] t y > -ty,ci
+ r y > -ry,rzy
+ g i > -gi,dzy
+ d y > -dy,dzi
+ ³ y > -³y,li
+ s z y > -szy,si
+ k i > -ki,cy
+ c h y > -chy,si
+ s t y > -sty,¶ci
+ s ³ y > -s³y,¶li
+# 
+# Jest te¿ niejednoznaczno¶æ:  ¿y -> 'zi' lub '¿y'
+
+# Przys³ówek od przymiotnika
+flag Y:
+[gkl] i > -i,o
+[^ngkliy] y > -y,o
+n y > -y,ie
+
+# Rzeczownik (na razie rodzaj mêski i ¿eñski)
+flag A:
+# rodzaj mêski
+EOF
+sed -n 'h;p;s,owi$,em,p;g;s,owi$,e,p;g;s,owi$,u,p;g;s,owi$,om,p;'\
+'g;s,owi$,ami,p;g;s,owi$,ach,p' <<"EOF"
+æ > -æ,ciowi
+ñ > -ñ,niowi
+¶ > -¶,siowi
+¼ > -¼,ziowi
+[^e] c > owi
+[^iz] e c > -ec,cowi
+[^r] z e c > -ec,cowi
+r z e c > -zec,cowi
+[^z] i e c > -iec,cowi
+z i e c > -ziec,¼cowi
+EOF
+cat <<"EOF"
+[bdfghjkl³mnprstwz] > owi
+[bdfhjl³mnprstwz] > em
+[gk] > iem
+[ghjkl¿] > u
+[cdrs] z > u
+[bfmpsw] > ie
+s e n > -sen,¶nie
+[^s] t > -t,cie
+s t > -st,¶cie
+[^z] d > zie
+z d > -zd,¼dzie
+[^cdrs] z > ie
+
+[bdfghjkl³mnprstwz] > om
+[bdfghjkl³mnprstwz] > ami
+[bdfghjkl³mnprstwz] > ach
+
+# dope³niacz lm - niekompletny z powodu niejednoznaczno¶ci
+[bdfghk³mprstw] > ów
+
+# ¿eñski
+a > -a,a
+i a > -ia,i
+j a > -ja,i
+[gkl] a > -a,i
+[bcdf³mnprstwz] a > -a,y
+c h a > -cha,sze
+[^z] d a > -a,zie
+g a > -ga,dze
+k a > -ka,ce
+[^s] ³ a > -³a,le
+[^sz] n a > -a,ie
+p a > -pa,pie
+r a > -a,ze
+[^s] t a > -ta,cie
+z d a > -zda,¼dzie
+s ³ a > -s³a,¶le
+s n a > -sna,¶nie
+z n a > -zna,¼nie
+s t a > -sta,¶cie
+[bfmswz] a > -a,ie
+
+# biernik
+a > -a,ê
+# wo³acz
+[^i] a > -a,o
+[^c] i a > -a,o
+c i a > -a,u
+# M lm
+[ijl] a > -a,e
+[bdfhmnprstw] a > -a,y
+[gk] a > -a,i
+# D lm (tylko ró¿ny od innych przypadków)
+l a > -la,l
+o b a > -oba,ób
+[^o] b a > -ba,b
+# trzeba dodaæ resztê dope³niacza
+a > -a,om
+a > -a,ami
+a > -a,ach
+
+# Dope³niacz rodzaju mêskiego lp
+flag B:
+[bdfghjkl³mnprstwz] > a
+æ > -æ,cia
+ñ > -ñ,nia
+¶ > -¶,sia
+¼ > -¼,zia
+[^e] c > a
+[^iz] e c > -ec,ca
+[^r] z e c > -ec,ca
+r z e c > -zec,ca
+[^z] i e c > -iec,ca
+z i e c > -ziec,¼ca
+
+flag C:
+[bdf³mnprstwz] > u
+
+# Imies³ów wspó³czesny
+flag U:
+# Obs³uguje grupy I, II, III, IV, Va, Vb, Vc, VIa, VIb, VIIIa, VIIIb
+EOF
+EX_IM='h;/±cy$/s/y$//p;g;p;s/y$/a/p;g;s/y$/e/p;g;s/y$/±/p;g;s/y$/ego/p;'\
+'g;s/y$/emu/p;g;s/y$/ej/p;g;s/y$/ych/p;g;s/y$/ym/p;g;s/y$/ymi/p;'\
+'g;s/ony$/eni/p;s/ny$/ni/p;s/ty$/ci/p'
+sed -n $EX_IM <<"EOF"
+o w a æ > -owaæ,uj±cy
+i w a æ > -iwaæ,uj±cy
+y w a æ > -ywaæ,uj±cy
+[^w] a æ > -æ,j±cy
+e æ > -æ,j±cy
+y æ > -yæ,±cy
+[aeo] i æ > -iæ,j±cy
+[bfnmpw] i æ > -æ,±cy
+[^d] z i æ > -ziæ,¿±cy
+[^¼] d z i æ > -iæ,±cy
+¼ d z i c > -¼dziæ,¿d¿±cy
+l i æ > -iæ,±cy
+s i æ > -iæ,z±cy
+[^æ¶z] c i æ > -iæ,±cy
+¶ c i æ > -¶ciæ,szcz±cy
+c z c i æ > -ciæ,cz±cy
+[z¿] y æ > -yæ,±cy
+n ± æ > -±æ,±cy
+
+flag T: 
+# Obs³uguje grupy VIIa, VIIb, IX
+[bp] a æ > -aæ,i±cy
+[^cds] z a æ > -zaæ,¿±cy
+i e æ > -ieæ,±cy
+[^i] e æ > -eæ,±cy
+
+EOF
+
+cat <<"EOF"
+# Czasowniki
+
+flag W:
+# Obs³uguje czas tera¼niejszy i tryb rozkazuj±cy
+#	grupy III, IX
+# echo bezokolicznika
+[ae] æ > -æ,æ
+e æ > -æ,jê
+e æ > -æ,jesz
+e æ > -æ,je
+e æ > -æ,jemy
+e æ > -æ,jecie
+e æ > -æ,j±
+
+e æ > -æ,j
+e æ > -æ,jmy
+e æ > -æ,jcie
+
+[bp] a æ > -aæ,iê
+[bp] a æ > -aæ,iesz
+[bp] a æ > -aæ,ie
+[bp] a æ > -aæ,iemy
+[bp] a æ > -aæ,iecie
+[bp] a æ > -aæ,i±
+
+b a æ > -baæ,b
+p a æ > -paæ,p
+[bp] a æ > -aæ,my
+[bp] a æ > -aæ,cie
+
+
+
+flag V: 
+# Obs³uguje czas tera¼niejszy i tryb rozkazuj±cy 
+#       grupy I, IV, Va, Vb, Vc, VIa, VIb, VIIIa, VIIIb
+# Czas przesz³y i imies³ów uprzedni
+#	grupy I, II, III, IV, VIa, VIb, VIIa, VIIb, VIIIa, VIIIb, IX
+# Imies³ów bierny
+# 	grupy I, IV, Va, Vb, Vc, VIa, VIb, VIIIa, VIIIb, IX
+# Rzeczownik odczasownikowy i forma bezosobowa czasu przesz³ego
+#       grupy I, II, III, IV, Va, Vb, Vc, VIa, VIb, VIIa, VIIb, VIIIa, VIIIb, IX
+# 
+# echo bezokolicznika
+[a±eiy] æ > -æ,æ
+EOF
+sed -n 'h;p;s,^o,i,;s,-o,-i,p;g;s,^o,y,;s,-o,-y,p' <<"EOF"
+o w a æ > -owaæ,ujê
+o w a æ > -owaæ,ujesz
+o w a æ > -owaæ,uje
+o w a æ > -owaæ,ujemy
+o w a æ > -owaæ,ujecie
+o w a æ > -owaæ,uj±
+o w a æ > -owaæ,uj
+o w a æ > -owaæ,ujmy
+o w a æ > -owaæ,ujcie
+EOF
+cat << "EOF"
+[^w] a æ > -æ,m
+[^w] a æ > -æ,sz
+[^w] a æ > -aæ,a
+[^w] a æ > -æ,my
+[^w] a æ > -æ,cie
+[^w] a æ > -æ,j±
+[^w] a æ > -æ,j
+[^w] a æ > -æ,jmy
+[^w] a æ > -æ,jcie
+
+n ± æ > -±æ,ê
+n ± æ > -±æ,iesz
+n ± æ > -±æ,ie
+n ± æ > -±æ,iemy
+n ± æ > -±æ,iecie
+n ± æ > -±æ,±
+
+[a±eêioóy] n ± æ > -n±æ,ñ
+[a±eêioóy] n ± æ > -n±æ,ñmy
+[a±eêioóy] n ± æ > -n±æ,ñcie
+
+[^a±eêioóy] n ± æ > -±æ,ij
+[^a±eêioóy] n ± æ > -±æ,ijmy
+[^a±eêioóy] n ± æ > -±æ,ijcie
+
+# [aeo]iæ poiæ 
+# [bfnmpw]iæ robiæ trefiæ kupiæ
+# liæ siæ [a±eêióuyr³]ciæ ¶ciæ czciæ  waliæ
+# [a±eêiouywr]dziæ ¼dziæ [aêo]ziæ radziæ gardziæ
+[aeo] i æ > -iæ,jê
+[bfnmpw] i æ > -æ,ê
+[^d] z i æ > -ziæ,¿ê
+[^¼] d z i æ > -iæ,ê
+¼ d z i c > -¼dziæ,¿d¿ê
+l i æ > -iæ,ê
+s i æ > -iæ,zê
+[^æ¶z] c i æ > -iæ,ê
+¶ c i æ > -¶ciæ,szczê
+c z c i æ > -ciæ,czê
+ i æ > -æ,sz
+ i æ > -iæ,i
+ i æ > -æ,my
+ i æ > -æ,cie
+[aeo] i æ > -iæ,j±
+[bfnmpw] i æ > -æ,±
+[^d] z i æ > -ziæ,¿±
+[^¼] d z i æ > -iæ,±
+¼ d z i c > -¼dziæ,¿d¿±
+l i æ > -iæ,±
+s i æ > -iæ,z±
+[^æ¶z] c i æ > -iæ,±
+¶ c i æ > -¶ciæ,szcz±
+c z c i æ > -ciæ,cz±
+# tryb rozkazuj±cy
+[ae] i æ > -iæ,j
+[ae] i æ > -iæ,jmy
+[ae] i æ > -iæ,jcie
+o i æ > -oiæ,ój
+o i æ > -oiæ,ójmy
+o i æ > -oiæ,ójcie
+l i æ > -iæ,l
+l i æ > -iæ,lmy
+l i æ > -iæ,lcie
+s i æ > -siæ,¶
+s i æ > -siæ,¶my
+s i æ > -siæ,¶cie
+[^z] c i æ > -ciæ,æ
+[^z] c i æ > -ciæ,æmy
+[^z] c i æ > -ciæ,æcie
+c z c i æ > -æ,j
+c z c i æ > -æ,jmy
+c z c i æ > -æ,jcie
+d z i æ > -ziæ,¼
+d z i æ > -ziæ,¼my
+d z i æ > -ziæ,¼cie
+
+# [z¿]yæ wa¿yæ ruszyæ burzyæ leczyæ 
+# [¿z] nie ³apie (s³usznie) wydobyæ obmyæ wykryæ tyæ
+[¿z] y æ > -yæ,ê
+[¿z] y æ > -æ,sz
+[¿z] y æ > -yæ,y
+[¿z] y æ > -æ,my
+[¿z] y æ > -æ,cie
+[¿z] y æ > -yæ,±
+
+# tryb rozkazuj±cy 
+z y æ > -yæ,z
+¿ y æ > -yæ,¿
+[¿z] y æ > -yæ,my
+[¿z] y æ > -yæ,cie
+
+# Czas przesz³y
+[aiy] æ > -æ,³em
+[aiy] æ > -æ,³am
+[aiy] æ > -æ,³e¶
+[aiy] æ > -æ,³a¶
+[aiy] æ > -æ,³
+[aiy] æ > -æ,³a
+[aiy] æ > -æ,³o
+[aiy] æ > -æ,li¶my
+[aiy] æ > -æ,³y¶my
+[aiy] æ > -æ,li¶cie
+[aiy] æ > -æ,³y¶cie
+[aiy] æ > -æ,li
+[aiy] æ > -æ,³y
+
+e æ > -eæ,a³em
+e æ > -eæ,a³am
+e æ > -eæ,a³e¶
+e æ > -eæ,a³a¶
+e æ > -eæ,a³
+e æ > -eæ,a³a
+e æ > -eæ,a³o
+e æ > -æ,li¶my
+e æ > -eæ,a³y¶my
+e æ > -æ,i¶cie
+e æ > -eæ,a³y¶cie
+e æ > -æ,li
+e æ > -eæ,a³y
+
+# Imies³ów uprzedni
+[aiy] æ > -æ,wszy
+e æ > -eæ,awszy
+[a±eêioóy] n ± æ > -æ,wszy
+
+# Imies³ów bierny
+EOF
+sed -n $EX_IM <<"EOF"
+a æ > -æ,ny
+[aeo] i æ > -iæ,jony
+[bfnmpw] i æ > -æ,ony
+[^d] z i æ > -ziæ,¿ony
+[^z] d z i æ > -iæ,ony
+¼ d z i æ > -¼dziæ,¿d¿ony
+l i æ > -iæ,ony
+s i æ > -iæ,zony
+[^æ¶z] c i æ > -iæ,ony
+¶ c i æ > -¶ciæ,szczony
+c z c i æ > -ciæ,czony
+y æ > -yæ,ony
+n ± æ > -±æ,iêty
+EOF
+
+cat << EOF
+# forma nieosobowa czasu przesz³ego
+a æ > -æ,no
+e æ > -eæ,ano
+[bfnmpw] i æ > -iæ,ono
+[aeo] i æ > -iæ,jono
+l i æ > -iæ,ono
+s i æ > -iæ,zono
+[^æ¶z] c i æ > -iæ,ono
+¶ c i æ > -¶ciæ,szczono
+c z c i æ > -czciæ,czczono
+[z¿] y æ > -yæ,ono
+n ± æ > -±æ,iêto
+EOF
+
+# Rzeczownik ods³owny
+sed -n 'h;p;s,e$,a,p;g;s,e$,u,p;g;s,e$,ach,p;g;s,e$,em,p;g;s,e$,ami,p;'\
+'g;s,e$,om,p;g;s,nie$,ñ,p;s,cie$,æ,p' <<"EOF"
+[ae] æ > -æ,nie
+[bfnmpw] i æ > -æ,enie
+[aeo] i æ > -iæ,jenie
+l i æ > -iæ,enie
+s i æ > -iæ,zenie
+[^æ¶z] c i æ > -iæ,enie
+¶ c i æ > -¶ciæ,szczenie
+c z c i æ > -czciæ,czczenie
+[z¿] y æ > -yæ,enie
+[^sz] n ± æ > -±æ,iêcie
+s n ± æ > -sn±æ,¶niêcie
+z n ± æ > -zn±æ,¼niêcie
+EOF
