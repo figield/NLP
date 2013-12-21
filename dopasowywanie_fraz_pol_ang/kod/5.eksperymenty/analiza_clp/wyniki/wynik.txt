@@ -1,0 +1,172 @@
+text-ISO-8859-2.txt
+------------------------
+Poczatki identyfikujace czesc mowy i rodzaj: 
+ AA - rzeczownik meski osobowy
+ AB - rzeczownik meski zywotny
+ AC - rzeczownik meski niezywotny
+ AD - rzeczownik zenski
+ AE - rzeczownik nijaki
+ AF - rzeczownik plurale tantum osobowy
+ AG - rzeczownik plurale tantum nieosobowy
+ B - czasownik
+ C - przymiotnik
+ D - liczebnik
+ E - zaimek
+ G - nieodmienny
+------------------------
+oni, wszyscy, ¶miali, siê, z, niego, i, przezywali, go, jajog³owym, 
+------------------------
+oryginalnie: oni
+
+id: 1000029
+1)label: EAABB
+2)bform: on
+3)forms:on:jego:jemu:nim:oni:ich:nimi:nich:
+4)vec_id: 2:8:14
+
+id: 1000030
+1)label: EAABBA
+2)bform: on
+3)forms:on:niego:niemu:nim:oni:nich:nimi:
+4)vec_id: 2:8:14
+
+id: 1000026
+1)label: EAAA
+2)bform: on
+3)forms:on:go:mu:nim:oni:ich:nimi:nich:
+4)vec_id: 2:8:14
+
+id: 1000029
+1)label: EAABB
+2)bform: on
+3)forms:on:jego:jemu:nim:oni:ich:nimi:nich:
+4)vec_id: 2:8:14
+
+id: 1000030
+1)label: EAABBA
+2)bform: on
+3)forms:on:niego:niemu:nim:oni:nich:nimi:
+4)vec_id: 2:8:14
+
+------------------------
+oryginalnie: wszyscy
+
+id: 1100622
+1)label: AFEC
+2)bform: wszyscy
+3)forms:wszyscy:wszystkich:wszystkim:wszystkimi:
+4)vec_id: 2:8:14
+
+id: 1100623
+1)label: CCA
+2)bform: wszystek
+3)forms:wszystek:wszystkiego:wszystkiemu:wszystkim:wszystka:wszystkiej:wszystk±:wszystko:wszyscy:wszystkich:wszystkimi:wszystkie:
+4)vec_id: 2:29:35
+
+------------------------
+oryginalnie: ¶miali
+
+id: 1117704
+1)label: BAFBD
+2)bform: ¶miaæ
+3)forms:¶miaæ:¶miejê:¶miejesz:¶mieje:¶miejemy:¶miejecie:¶miej±:¶miej:¶miejmy:¶miejcie:¶miej±c:¶miej±cy:¶mia³em:¶mia³e¶:¶mia³:¶mia³am:¶mia³a¶:¶mia³a:¶mia³om:¶mia³o¶:¶mia³o:¶miali¶my:¶miali¶cie:¶miali:¶mia³y¶my:¶mia³y¶cie:¶mia³y:¶mia³bym:¶mia³by¶:¶mia³by:¶mia³abym:¶mia³aby¶:¶mia³aby:¶mia³obym:¶mia³oby¶:¶mia³oby:¶mialiby¶my:¶mialiby¶cie:¶mialiby:¶mia³yby¶my:¶mia³yby¶cie:¶mia³yby:¶miano:¶miany:¶miawszy:
+4)vec_id: 1:26
+
+id: 1117707
+1)label: CAB
+2)bform: ¶mia³y
+3)forms:¶mia³y:¶mia³ego:¶mia³emu:¶mia³ym:¶mia³a:¶mia³ej:¶mia³±:¶mia³e:¶miali:¶mia³ych:¶mia³ymi:
+4)vec_id: 2:29:35
+
+------------------------
+oryginalnie: siê
+
+id: 1082268
+1)label: EJB
+2)bform: siê
+3)forms:siê:siebie:sobie:sob±:
+4)vec_id: 1:4
+
+------------------------
+oryginalnie: z
+
+id: 1106906
+1)label: GBBAA
+2)bform: z
+3)forms:z:
+4)vec_id: 1:1
+
+------------------------
+oryginalnie: niego
+
+id: 1000030
+1)label: EAABBA
+2)bform: on
+3)forms:on:niego:niemu:nim:oni:nich:nimi:
+4)vec_id: 2:2:4
+
+id: 1000035
+1)label: EBABBA
+2)bform: on
+3)forms:on:niego:niemu:nim:one:nich:nie:nimi:
+4)vec_id: 2:2:4
+
+id: 1000040
+1)label: EEAABA
+2)bform: ono
+3)forms:ono:niego:niemu:nie:nim:one:nich:nimi:
+4)vec_id: 1:2
+
+------------------------
+oryginalnie: i
+
+id: 1023874
+1)label: GBBAB
+2)bform: i
+3)forms:i:
+4)vec_id: 1:1
+
+------------------------
+oryginalnie: przezywali
+
+id: 1072471
+1)label: BDA
+2)bform: przezywaæ
+3)forms:przezywaæ:przezywam:przezywasz:przezywa:przezywamy:przezywacie:przezywaj±:przezywaj:przezywajmy:przezywajcie:przezywaj±c:przezywaj±cy:przezywa³em:przezywa³e¶:przezywa³:przezywa³am:przezywa³a¶:przezywa³a:przezywa³om:przezywa³o¶:przezywa³o:przezywali¶my:przezywali¶cie:przezywali:przezywa³y¶my:przezywa³y¶cie:przezywa³y:przezywa³bym:przezywa³by¶:przezywa³by:przezywa³abym:przezywa³aby¶:przezywa³aby:przezywa³obym:przezywa³oby¶:przezywa³oby:przezywaliby¶my:przezywaliby¶cie:przezywaliby:przezywa³yby¶my:przezywa³yby¶cie:przezywa³yby:przezywano:przezywany:przezywawszy:
+4)vec_id: 1:26
+
+------------------------
+oryginalnie: go
+
+id: 1000026
+1)label: EAAA
+2)bform: on
+3)forms:on:go:mu:nim:oni:ich:nimi:nich:
+4)vec_id: 2:2:4
+
+id: 1000032
+1)label: EBAAA
+2)bform: on
+3)forms:on:go:mu:nim:one:ich:je:nimi:nich:
+4)vec_id: 2:2:4
+
+id: 1000041
+1)label: EEAB
+2)bform: ono
+3)forms:ono:go:mu:je:nim:one:ich:nimi:nich:
+4)vec_id: 1:2
+
+------------------------
+oryginalnie: jajog³owym
+
+id: 1025490
+1)label: AAEC
+2)bform: jajog³owy
+3)forms:jajog³owy:jajog³owego:jajog³owemu:jajog³owym:jajog³owi:jajog³owych:jajog³owymi:
+4)vec_id: 3:5:6:10
+
+id: 1025491
+1)label: CAB
+2)bform: jajog³owy
+3)forms:jajog³owy:jajog³owego:jajog³owemu:jajog³owym:jajog³owa:jajog³owej:jajog³ow±:jajog³owe:jajog³owi:jajog³owych:jajog³owymi:
+4)vec_id: 8:5:6:12:13:26:27:31:38

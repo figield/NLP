@@ -1,0 +1,85 @@
+>>> [1,2,3]
+[1, 2, 3]
+>>> (1,2,3)
+(1, 2, 3)
+>>> (a, b) = [1,2)
+  File "<stdin>", line 1
+    (a, b) = [1,2)
+                 ^
+SyntaxError: invalid syntax
+>>> (a, b) = [1,2]
+>>> [c,d] = [1,2]
+>>> c
+1
+>>> a, b
+(1, 2)
+>>> 1,2,3
+(1, 2, 3)
+>>> pairs = [(1,2), (3,4)]
+>>> for pair in pairs: print pair
+... 
+(1, 2)
+(3, 4)
+>>> (a,b) = (1,2)
+>>> for (x,y) in pairs: print "%s --> %d" % (x, y)
+... 
+1 --> 2
+3 --> 4
+>>> for x, y in pairs: print "%s --> %d" % (x, y)
+... 
+1 --> 2
+3 --> 4
+>>> "aaa " + str(len([1,2,3])) + "."
+'aaa 3.'
+>>> "aaa %d." % len([1,2,3])
+'aaa 3.'
+>>> [x for x in [1,2,3] if x % 2 == 0]
+[2]
+>>> (x for x in [1,2,3] if x % 2 == 0)
+<generator object at 0x8383fec>
+>>> gen = (x for x in [1,2,3] if x % 2 == 0)
+>>> gen()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'generator' object is not callable
+>>> gen.next
+<method-wrapper 'next' of generator object at 0x838b18c>
+>>> gen.next()
+2
+>>> gen.next()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+>>> gen = (x for x in [1,2,3] if x % 2 == 0)
+>>> gen.next()
+2
+>>> gen.next()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+>>> gen = (x for x in [1,2,3,4,5,6,7,8,9,10] if x % 2 == 0)
+>>> gen.next()
+2
+>>> gen.next()
+4
+>>> gen.next()
+6
+>>> gen.next()
+8
+>>> gen.next()
+10
+>>> gen.next()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+StopIteration
+>>> gen = (x for x in [1,2,3,4,5,6,7,8,9,10] if x % 2 == 0)
+>>> for x in gen:
+...  print x
+... 
+2
+4
+6
+8
+10
+>>> 
+

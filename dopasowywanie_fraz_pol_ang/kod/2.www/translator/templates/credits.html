@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+
+{% block tab_credits %}
+active
+{% endblock %}
+{% block main %}
+
+
+<table>
+
+
+<tr>
+<td align="center" width=20% >
+      <img src="{% url django.views.static.serve weird_hack %}dawid2.jpg" alt="" />
+</td>
+<td>
+<b>Dawid Figiel</b> -  absolwent Akademii Górniczo-Hutniczej w Krakowie na kierunku informatyka, specjalność Inżyniera systemów informatycznych i baz danych.
+W latach 2005 - 2007 Przewodniczący Koła Naukowego BIT. Organizator Studenckiego Festiwalu Informatycznego 2008. Obecnie pracuje nad projektami z dziedziny systemów rozproszonych oraz współbieżnych w technologi Erlang/OTP. Pasjonat tematyki związanej z przetwarzaniem języków naturalnych oraz budową translatorów. 
+</td>
+</tr>
+
+<tr>
+<td align="center" width=20% >
+      <img src="{% url django.views.static.serve weird_hack %}greg.jpg" alt="" />
+</td>
+<td>
+<b>Grzegorz Grzesiuk</b> – absolwent Akademii Górniczo-Hutniczej w Krakowie na kierunku informatyka, specjalność Inżyniera systemów informatycznych i baz danych. W latach 2004 – 2007 członek Stowarzyszenia Studentów BEST (Boarf of European Students of Technology). 
+Obecnie pracuje nad projektami z dziedziny Business Support Systems głównie w technologi Java EE. 
+</td>
+</tr>
+
+
+</table>
+
+{% endblock %}
+

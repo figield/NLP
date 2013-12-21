@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block javascript %}
+
+<script src="{% url django.views.static.serve weird_hack %}{{ current_javascript|default:"prototype.js" }}" type="text/javascript"></script>
+<script type="text/javascript">
+function add_word_inline() {
+
+    var word = $("new_word").value;    
+
+    if (word.length > 0) {
+    		new Ajax.Request("{% url phrase.views.find_phrase %}",
+       		 	{
+       		 	    method: 'post',
+       			    parameters: {'words': $("new_word").value, '_inline': "True"},
+        		    onSuccess: function(transport){ 
+        		        $("all_words").update(transport.responseText);
+        		        $("suggestion_spinner").hide();
+        		        },
+        		});
+    }
+    $("suggestion_spinner").show('');
+    return false;
+};
+
+
+</script>
+
+{% endblock %}
+
+
+{% block tab_phrase %}
+active
+{% endblock %}
+{% block main %}
+<p>Wyszukiwanie popularnych wyrażeń polsko-angielskich</p>
+       <form id="suggestion_form" method="post" action="#">
+            <div align="left">
+              <input id="new_word" type="text" onkeyup="add_word_inline()" name="words" />
+              min. 1 znak
+              <img src="/site_media/spinner.gif" id="suggestion_spinner" style="position: relative; display: none; top: 2px; left: 3px; height: 14px;" />
+              
+            </div>
+       </form>
+       <div align = "middle">
+       <table id="all_words">
+           {% include "all_phrases.html" %}
+       </table>
+       </div>
+
+{% endblock %}
+
+

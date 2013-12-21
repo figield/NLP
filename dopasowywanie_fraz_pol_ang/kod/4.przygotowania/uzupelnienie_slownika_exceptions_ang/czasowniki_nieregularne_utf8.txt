@@ -1,0 +1,171 @@
+arise	arose	arisen	powstawać, pojawiać się
+awake	awoke	awoken	budzić się
+be	were	been	być
+be	was	been	być
+bear	bore	borne	nosić
+become	became	become	zostawać
+befall	befell	befallen	przytrafić się, zdarzać się
+beget	begot	begotten	zrodzić, spowodować, wywołać
+begin	began	begun	zaczynać sić, rozpocząć
+behold	beheld	beheld	ujrzeć, zobaczyć, spostrzec
+bend	bent	bent	pochylić się
+beset	beset	beset	dręczyć, prześladować, napastować, oblegać, osaczać
+bet	betted	betted	zakładać się, postawić na coś
+bet	bet	bet	zakładać się, postawić na coś
+bid	bade	bidden	kazać, rozkazać komuś
+bid	bid	bid	licytować, zaoferować cenę
+bind	bound	bound	przywiązywać, związywać, uwiązywać
+bite	bit	bitten	gryźć, kąsać, przygryzać, nadgryzać, odgryzać
+bleed	bled	bled	krwawić, ulatniać się (o gazie)
+blow	blew	blown	dmuchać, dąć, wiać, wysiąkać nos, rozkwitać
+break	broke	broken	tłuc, łamać, pogruchotać, zepsuć się
+breed	bred	bred	hodować
+bring	brought	brought	przynosić, przywozić, przyprowadzać, sprowadzać, nanieść, zmusić się
+build	built	built	budować
+burn	burnt	butnt	palić, parzyć, podpalać, spalać się
+burst	burst	burst	rozrywać, rozsadzać, pękać, wybuchać
+buy	bought	bought	kupować, nabywać
+cast	cast	cast	rzucać, ciskać, obsadzać, obsadzić
+catch	caught	caught	łapać, złapać, chwycić, złowić
+choose	chose	chosen	wybierać, typować
+cling	clung	clung	przylgnąć, przywierać, trzymać się kurczowo
+come	came	come	przychodzić, przyjeżdżać, przybywać, nadciągać
+cost	cost	cost	kosztować
+creep	crept	crept	skradać się, czołgać się, pełzać, cierpnąć (o skórze)
+cut	cut	cut	kroić, ciąć
+deal	dealt	dealt	rozdzielać, dotyczyć, traktować
+dig	dug	dug	kopać, poszukiwać
+drive	drove	driven	kierować
+dwell	dwelt	dwelt	mieszkać
+eat	ate	eaten	jeść
+fall	fell	fallen	upaść, spadać
+feed	fed	fed	karmić, żywić
+feel	felt	felt	czuć
+fight	fought	fought	walczyć
+find	found	found	znaleźć
+fit	fit	fit	pasować
+flee	fled	fled	uciekać, zbiec
+fling	flung	flung	ciskać, rzucać
+fly	flew	flown	latać
+forbid	forbade	forbidden	zakazać
+forecast	forecast	forecast	zapowiadać, przepowiadać
+forget	forgot	forgotten	zapominać, zapomnieć
+forgive	forgave	forgiven	wybaczać
+forsake	forsook	forsaken	porzucać
+freeze	froze	frozen	zamarzać, mrozić
+get	got	gotten	dostać
+get	got	got	dostać
+give	gave	given	dawać
+go	went	gone	iść
+grind	ground	ground	mleć, kruszyć
+grow	grew	grown	rosnąć
+hang	hung	hung	powiesić
+have	had	had	mieć
+hear	heard	heard	słyszeć
+hew	hewed	hewn	rąbać
+hide	hid	hidden	schować, skrywać
+hit	hit	hit	uderzyć, uderzać
+hold	held	held	trzymać
+hurt	hurt	hurt	ranić
+keep	kept	kept	trzymać, zachować
+kneel	knelt	knelt	klęczeć
+knit	knit	knit	robić na drutach
+know	knew	known	wiedzieć
+lay	laid	laid	kłaść
+lead	led	led	prowadzić
+lean	leant	leant	pochylać się
+leap	leapt	leapt	skakać
+learn	learnt	learnt	uczyć się
+leave	left	left	zostawiać, wychodzić
+lend	lent	lent	pożyczać
+let	let	let	pozwolić
+lie	lay	lain	leżeć
+light	lit	lit	oświetlać, zapalać
+lose	lost	lost	gubić
+make	made	made	robić
+mean	meant	meant	znaczyć, oznaczać
+meet	met	met	spotkać
+mistake	mistook	mistaken	pomylić
+mow	mowed	mown	kosić
+pay	paid	paid	płacić
+plead	pled	pled	błagać
+prove	proved	proved	udowadniać, wykazać
+prove	proved	proven	udowadniać, wykazać
+put	put	put	kłaść
+quit	quit	quit	zrezygnować
+read	read	read	czytać
+rend	rent	rent	drzeć
+rid	rid	rid	oczyścić, pozbyć się
+ride	rode	ridden	jeździć
+ring	rang	rung	dzwonić
+rise	rose	risen	rosnąć, wzrastać
+run	ran	run	biec
+saw	sawed	sawn	piłować
+see	saw	seen	widzieć
+seek	sought	sought	szukać
+sell	sold	sold	sprzedawać
+send	sent	sent	wysyłać
+set	set	set	nastawić
+sew	sewed	sewn	szyć
+shake	shook	shaken	trząść
+shear	shore	shorn	strzyc
+shed	shed	shed	zrzucać z siebie, pozbywać się, tracić (np. włosy)
+shine	shone	shone	świecić, pobłyskiwać, lśnić
+shoe	shod	shod	obuć
+shoot	shot	shot	strzelać
+show	showed	shown	pokazywać
+shrink	shrank	shrunk	kurczyć się
+shut	shut	shut	zamykać
+sing	sang	sung	śpiewać
+sink	sank	sunk	tonąć
+sit	sat	sat	siadać, siedzieć
+slay	slew	slain	zabijać, powalać
+sleep	slept	slept	spać
+slide	slid	slid	ślizgać się
+sling	slung	slung	podwiesić
+slit	slit	slit	rozcinać
+smell	smelt	smelt	pachnieć
+sow	sowed	sown	siać, wysiewać
+speak	spoke	spoken	mówić
+speed	sped	sped	spieszyć się, pędzić
+spell	spelt	spelt	przeliterować
+spend	spent	spent	spędzać, wydawać
+spill	spilt	spilt	rozlewać
+spin	spun	spun	prząść, wirować, obracać się
+spit	spat	spat	pluć
+split	split	split	dzielić, rozdzielać, rozszczepiać
+spoil	spoilt	spoilt	psuć
+spread	spread	spread	rozkładać, rozpościerać, rozciągać, rozpowszechniać
+spring	sprang	sprung	skakać
+stand	stood	stood	stać
+steal	stole	stolen	kraść
+stick	stuck	stuck	wtykać, przyklejać
+sting	stung	stung	kłuć, użądlić
+stink	stank	stunk	śmierdzieć, cuchnąć
+strew	strewed	strewn	porozrzucać
+stride	strode	stridden	przekraczać, kroczyć
+strike	struck	struck	uderzać
+string	strung	strung	naciągać
+strive	strove	striven	usiłować, dążyć do czegoś
+swear	swore	sworn	kląć, przeklinać
+sweep	swept	swept	zamiatać
+swell	swelled	swollen	napuchnąć, nabrzmiewać
+swim	swam	swum	pływać
+swing	swung	swung	kołysać się, machać czymś
+take	took	taken	brać
+teach	taught	taught	nauczać
+tear	tore	torn	rwać, drzeć
+tell	told	told	opowiadać
+think	thought	thought	myśleć
+thrive	throve	thriven	dobrze się rozwijać
+throw	threw	thrown	rzucać
+thrust	thrust	thrust	dźgać, wbić
+tread	trod	trodden	deptać, stąpać
+wake	woke	woken	budzić się
+wear	wore	worn	nosić, mieć na sobie
+weave	wove	woven	tkać, wplatać
+wet	wet	wet	zwilżać
+win	won	won	wygrać
+wind	wound	wound	nawijać, obwijać, zwijać
+wring	wrung	wrung	wykręcać, wyciskać
+write	wrote	written	pisać

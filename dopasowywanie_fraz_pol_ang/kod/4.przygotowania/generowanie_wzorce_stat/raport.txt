@@ -1,0 +1,25 @@
+
+Pobranie statystyk 2 wyrazowych...
+Pobrano 3088009 fraz
+N = 2
+146580
+
+Pobranie statystyk 3 wyrazowych...
+Pobrano 2638072 fraz
+N = 3
+596213
+
+Pobranie statystyk 4 wyrazowych...
+Pobrano 1321630 fraz
+N = 4
+713322
+
+Pobranie statystyk 5 wyrazowych...
+Pobrano 660344 fraz
+N = 5
+495233
+
+Pobranie statystyk 6 wyrazowych...
+Pobrano 392825 fraz
+N = 6
+305404

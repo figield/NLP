@@ -1,0 +1,37 @@
+1.Mianownik - kto?, co?
+2.Dopełniacz - kogo?, czego?
+3.Celownik - komu?, czemu?
+4.Bernik - kogo?, co?
+5.Miejscownik - o kim?, o czym?
+6.Narzędnik - z kim?, z czym?
+7.Wołacz - []
+
+
+-------------------------------------------------------------------------------
+X. <podmiot> <be-past> + <orzeczenie> + <-ing> + [<fraza orzeczeniowa>]*
+
+- Past Continues
+
+<be-past> := [was, were]
+
+ex:
+he was working  => on pracował
+
+-------------------------------------------------------------------------------
+X. <podmiot> <orzeczenie> <forma nieokreslona wskazujaca na przypadek> <dopełnienie>
+
+<forma nieokreslona wskazujaca na przypadek> := of, a, the
+
+she has a cat => ona ma kota 
+
+she
+he   => l.poj,3rd   => have -> has -> ma
+it
+
+a => B(4) -> kot|a
+
+-------------------------------------------------------------------------------
+X. <podmiot> <orzeczenie> <przyimek: for, to> <dopełnienie>
+
+
+

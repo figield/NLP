@@ -1,0 +1,4 @@
+bollingera	1
+forextrend	1
+mataf	1
+usdjpy	2

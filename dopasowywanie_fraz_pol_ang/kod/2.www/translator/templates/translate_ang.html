@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block javascript %}
+
+<script type="text/javascript">
+function cT(a,b){
+document.getElementById(b).innerHTML = "<span class='after'>" + a + "</span>";
+}
+</script>
+
+{% endblock %}
+
+
+{% block tab_translate_ang %}
+active
+{% endblock %}
+{% block main %}
+
+{% if show_trans %}
+<form method=post action="#">
+        <div align="left">
+	   <p><b>Tekst oryginalny:</b></p>	
+           <input type="hidden" name = "text_to_translate" value ="{{text_to_translate}}"/>	
+           <p> {{text_to_translate}}</p>
+        </div>
+
+        {% if wynik1 %}
+        <div align="left">
+        <p><b>Tekst przetłumaczony:</b></p>
+	<p>			
+                 {{translation1|safe}}
+	</p>	
+        </div>
+        {%endif%}
+
+</form>
+
+{%endif%}
+
+<form method=post action="/translate/go_and_translate_ang/">
+	<br/><br/>
+	
+
+        <b>Rodzaj tłumaczenia:</b> 
+	<table style="font-size:11px"><tr><td>
+		<input name="level1" checked="checked" type="checkbox">
+			&nbsp;Tłumaczenie Metodą Wzorców Translacyjnych (PBMT): 
+			<br/>
+		</td></tr>
+         </table>
+
+
+	<p><b>Tekst do przetłumaczenia</b></p>			
+	<textarea name="text_to_translate" rows="3" style="width: 650px"> {{text_to_translate}} </textarea>
+	<p><b><input type="submit" value="Tłumacz!"/></b></p>
+
+      
+   
+</form>
+<br/>
+
+
+{% endblock %}
+
+

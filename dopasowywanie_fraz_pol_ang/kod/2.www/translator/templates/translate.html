@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block javascript %}
+
+<script type="text/javascript">
+function cT(a,b){
+document.getElementById(b).innerHTML = "<span class='after'>" + a + "</span>";
+}
+</script>
+
+{% endblock %}
+
+
+{% block tab_translate %}
+active
+{% endblock %}
+{% block main %}
+
+{% if show_trans %}
+<form method=post action="#">
+        <div align="left">
+	   <p><b>Tekst oryginalny:</b></p>	
+           <input type="hidden" name = "text_to_translate" value ="{{text_to_translate}}"/>	
+           <p> {{text_to_translate}}</p>
+        </div>
+
+        {% if wynik1 %}
+        <div align="left">
+        <p><b>Tłumaczenie słowo do słowa:</b></p>
+	<p>			
+                 {{translation1|safe}}
+	</p>	
+        </div>
+        {%endif%}
+
+         {% if wynik2 %}
+        <div align="left">
+        <p><b>Tłumaczenie przy pomocy słownika leksykalnego:</b></p>
+	<p>			
+                 {{translation2|safe}}
+	</p>	
+        </div>
+        {%endif%}
+     
+
+        {% if wynik3 %}
+        <div align="left">
+        <p><b>Tłumaczenie przy pomocy słownika frazeologicznego:</b></p>
+	<p>			
+                 {{translation3|safe}}
+	</p>	
+        </div>
+        {%endif%}
+
+        {% if wynik4 %}
+        <div align="left">
+        <p><b>Tłumaczenie przy pomocy słownika frazeologicznego i słownika leksyklanego:</b></p>
+	<p>			
+                 {{translation4|safe}}
+	</p>	
+        </div>
+        {%endif%}
+
+
+</form>
+
+{%endif%}
+
+<form method=post action="/translate/go_and_translate/">
+	<br/><br/>
+	<!--
+        <b>Kierunek tłumaczenia:</b> 
+	<table style="font-size:11px"><tr><td>
+		<input name="lang1" value="polang" checked="checked" type="radio">
+			&nbsp;Z polskiego na angielski 
+			<img src="{% url django.views.static.serve weird_hack %}pl.gif" alt="INTPolish" height="12" width="18">
+			&nbsp;->&nbsp;<img src="{% url django.views.static.serve weird_hack %}uk.gif" alt="INTEnglish" height="12" width="18">
+			<br/>
+		</td></tr>
+		<tr><td>
+		<input name="lang2" value="angpol" type="radio">
+			&nbsp;Z angielskiego na polski 
+			<img src="{% url django.views.static.serve weird_hack %}uk.gif" alt="INTEnglish" height="12" width="18">
+			&nbsp;->&nbsp;<img src="{% url django.views.static.serve weird_hack %}pl.gif" alt="INTPolish" height="12" width="18">
+		</td></tr>
+	</table>
+        -->
+
+        <b>Rodzaj tłumaczenia:</b> 
+	<table style="font-size:11px"><tr><td>
+		<input name="level1" checked="checked" type="checkbox">
+			&nbsp;Tłumaczenie słowo do słowa: 
+			<br/>
+		</td></tr>
+		<tr><td>
+		<input name="level2" checked="checked" type="checkbox">
+			&nbsp;Tłumaczenie przy pomocy słownika leksykalnego:
+		</td></tr>
+                <tr><td>
+		<input name="level3" checked="checked" type="checkbox">
+			&nbsp;Tłumaczenie przy pomocy słownika frazeologicznego:
+		</td></tr>
+                <tr><td>
+		<input name="level4" checked="checked" type="checkbox">
+			&nbsp;Tłumaczenie przy pomocy słownika frazeologicznego i słownika leksyklanego:
+		</td></tr>
+         </table>
+
+
+	<p><b>Tekst do przetłumaczenia</b></p>			
+	<textarea name="text_to_translate" rows="3" style="width: 650px"> {{text_to_translate}} </textarea>
+	<p><b><input type="submit" value="Tłumacz!"/></b></p>
+
+      
+   
+</form>
+<br/>
+
+
+{% endblock %}
+
+

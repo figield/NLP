@@ -1,0 +1,183 @@
+
+Plik: text-ISO-8859-2.txt~
+--------------------------
+byæ -> am
+byæ -> are
+byæ -> be
+byæ -> is
+byæ -> were
+byæ -> present
+byæ -> to be
+byæ -> to come
+byæ -> shall
+byæ -> will
+byæ -> am
+byæ -> are
+byæ -> be
+byæ -> is
+byæ -> were
+byæ -> present
+byæ -> to be
+byæ -> to come
+byæ -> shall
+byæ -> will
+kot -> cat
+kot -> puss
+kot -> pussy
+kot -> rookie
+kot -> yardbird
+kot -> freshman
+kot -> hare
+kota - 0
+kot -> cat
+kot -> puss
+kot -> pussy
+kot -> rookie
+kot -> yardbird
+kot -> freshman
+kot -> hare
+bycie - 0
+byæ -> am
+byæ -> are
+byæ -> be
+byæ -> is
+byæ -> were
+byæ -> present
+byæ -> to be
+byæ -> to come
+byæ -> shall
+byæ -> will
+bu¼ka -> kisser
+bu¼ka -> smiley
+bu¼ka -> mouth
+bu¼ka -> face
+byæ -> am
+byæ -> are
+byæ -> be
+byæ -> is
+byæ -> were
+byæ -> present
+byæ -> to be
+byæ -> to come
+byæ -> shall
+byæ -> will
+chodziæ -> attend
+chodziæ -> come
+chodziæ -> date
+chodziæ -> descend
+chodziæ -> go
+chodziæ -> hike
+chodziæ -> walk
+chodziæ -> to go
+chodziæ -> to sail
+chodziæ -> to work
+chodziæ -> to wear
+i¶æ -> follow
+i¶æ -> go
+i¶æ -> retire
+i¶æ -> stride
+i¶æ -> trip
+i¶æ -> walk
+i¶æ -> to approach
+i¶æ -> to come
+i¶æ -> to work
+i¶æ -> to go
+pój¶æ -> go
+pój¶æ -> leave
+pój¶æ -> went
+pój¶æ -> to walk
+pój¶æ -> to go
+pój¶æ -> to run
+pój¶æ -> to agree
+
+Plik: text-ISO-8859-2.txt
+--------------------------
+bêdzie -> will
+byæ -> am
+byæ -> are
+byæ -> be
+byæ -> is
+byæ -> were
+byæ -> present
+byæ -> to be
+byæ -> to come
+byæ -> shall
+byæ -> will
+byæ -> am
+byæ -> are
+byæ -> be
+byæ -> is
+byæ -> were
+byæ -> present
+byæ -> to be
+byæ -> to come
+byæ -> shall
+byæ -> will
+kot -> cat
+kot -> puss
+kot -> pussy
+kot -> rookie
+kot -> yardbird
+kot -> freshman
+kot -> hare
+kota - 0
+kot -> cat
+kot -> puss
+kot -> pussy
+kot -> rookie
+kot -> yardbird
+kot -> freshman
+kot -> hare
+bycie - 0
+byæ -> am
+byæ -> are
+byæ -> be
+byæ -> is
+byæ -> were
+byæ -> present
+byæ -> to be
+byæ -> to come
+byæ -> shall
+byæ -> will
+bu¼ka -> kisser
+bu¼ka -> smiley
+bu¼ka -> mouth
+bu¼ka -> face
+byæ -> am
+byæ -> are
+byæ -> be
+byæ -> is
+byæ -> were
+byæ -> present
+byæ -> to be
+byæ -> to come
+byæ -> shall
+byæ -> will
+chodziæ -> attend
+chodziæ -> come
+chodziæ -> date
+chodziæ -> descend
+chodziæ -> go
+chodziæ -> hike
+chodziæ -> walk
+chodziæ -> to go
+chodziæ -> to sail
+chodziæ -> to work
+chodziæ -> to wear
+i¶æ -> follow
+i¶æ -> go
+i¶æ -> retire
+i¶æ -> stride
+i¶æ -> trip
+i¶æ -> walk
+i¶æ -> to approach
+i¶æ -> to come
+i¶æ -> to work
+i¶æ -> to go
+pój¶æ -> go
+pój¶æ -> leave
+pój¶æ -> went
+pój¶æ -> to walk
+pój¶æ -> to go
+pój¶æ -> to run
+pój¶æ -> to agree

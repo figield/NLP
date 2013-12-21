@@ -1,0 +1,16 @@
+reset
+set nokey
+#set style line 1 lt 2 lw 2
+set title "Prawo Zipfa"
+set xlabel "Ranga(w)"
+set ylabel "Częstość(w)"
+set logscale
+set multiplot
+#set logscale
+set grid
+#set label "2-gramy" at graph 0.5,07 center norotate
+
+plot "stat_ang_2.txt" u 1:2 title "Statystyki bigramów" w l, "stat_ang_3.txt" u 1:2 title "Statystyki 3-gramów" w l,"stat_ang_4.txt" u 1:2 title "Statystyki 4-gramów" w l,"stat_ang_5.txt" u 1:2 title "Statystyki 5-gramów" w l,"stat_ang_6.txt" u 1:2 title "Statystyki 6-gramów" w l
+
+
+

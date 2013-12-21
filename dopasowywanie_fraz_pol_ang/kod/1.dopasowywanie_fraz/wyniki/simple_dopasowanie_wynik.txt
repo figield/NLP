@@ -1,0 +1,37 @@
+
+po ostatnim ruchu:
+	1	after the last bearish movement
+zajmowaliby¶my pozycji:
+	3	take a position
+konsolidacji po:
+	4	consolidation after
+w konsolidacji po ostatnim:
+	1	in a consolidation after the last
+zbyt wysoki:
+	6	too high
+indykator trendu:
+	2	trend indicator
+jest zbyt:
+	6	is too
+ostatnim ruchu:
+	3	last bearish movement
+w konsolidacji:
+	3	in a consolidation
+konsolidacji po ostatnim:
+	4	consolidation after the last
+konsolidacji po ostatnim ruchu:
+	1	consolidation after the last bearish movement
+nie zajmowaliby¶my:
+	4	not take
+po ostatnim:
+	3	after the last
+cena powinna:
+	5	price should
+nie zajmowaliby¶my pozycji:
+	4	not take a position
+jest zbyt wysoki:
+	6	is too high
+w konsolidacji po:
+	4	in a consolidation after
+ilosc fraz ang.: 17
+ilosc fraz pol.: 17

@@ -1,0 +1,172 @@
+arise	arose	arisen	powstawaæ, pojawiaæ siê
+awake	awoke	awoken	budziæ siê
+be	were	been	byæ
+be	was	been	byæ
+bear	bore	borne	nosiæ
+become	became	become	zostawaæ
+befall	befell	befallen	przytrafiæ siê, zdarzaæ siê
+beget	begot	begotten	zrodziæ, spowodowaæ, wywo³aæ
+begin	began	begun	zaczynaæ siæ, rozpocz±æ
+behold	beheld	beheld	ujrzeæ, zobaczyæ, spostrzec
+bend	bent	bent	pochyliæ siê
+beset	beset	beset	drêczyæ, prze¶ladowaæ, napastowaæ, oblegaæ, osaczaæ
+bet	betted	betted	zak³adaæ siê, postawiæ na co¶
+bet	bet	bet	zak³adaæ siê, postawiæ na co¶
+bid	bade	bidden	kazaæ, rozkazaæ komu¶
+bid	bid	bid	licytowaæ, zaoferowaæ cenê
+bind	bound	bound	przywi±zywaæ, zwi±zywaæ, uwi±zywaæ
+bite	bit	bitten	gry¼æ, k±saæ, przygryzaæ, nadgryzaæ, odgryzaæ
+bleed	bled	bled	krwawiæ, ulatniaæ siê (o gazie)
+blow	blew	blown	dmuchaæ, d±æ, wiaæ, wysi±kaæ nos, rozkwitaæ
+break	broke	broken	t³uc, ³amaæ, pogruchotaæ, zepsuæ siê
+breed	bred	bred	hodowaæ
+bring	brought	brought	przynosiæ, przywoziæ, przyprowadzaæ, sprowadzaæ, nanie¶æ, zmusiæ siê
+build	built	built	budowaæ
+burn	burnt	butnt	paliæ, parzyæ, podpalaæ, spalaæ siê
+burst	burst	burst	rozrywaæ, rozsadzaæ, pêkaæ, wybuchaæ
+buy	bought	bought	kupowaæ, nabywaæ
+cast	cast	cast	rzucaæ, ciskaæ, obsadzaæ, obsadziæ
+catch	caught	caught	³apaæ, z³apaæ, chwyciæ, z³owiæ
+choose	chose	chosen	wybieraæ, typowaæ
+cling	clung	clung	przylgn±æ, przywieraæ, trzymaæ siê kurczowo
+come	came	come	przychodziæ, przyje¿d¿aæ, przybywaæ, nadci±gaæ
+cost	cost	cost	kosztowaæ
+creep	crept	crept	skradaæ siê, czo³gaæ siê, pe³zaæ, cierpn±æ (o skórze)
+cut	cut	cut	kroiæ, ci±æ
+deal	dealt	dealt	rozdzielaæ, dotyczyæ, traktowaæ
+dig	dug	dug	kopaæ, poszukiwaæ
+drive	drove	driven	kierowaæ
+dwell	dwelt	dwelt	mieszkaæ
+eat	ate	eaten	je¶æ
+fall	fell	fallen	upa¶æ, spadaæ
+feed	fed	fed	karmiæ, ¿ywiæ
+feel	felt	felt	czuæ
+fight	fought	fought	walczyæ
+find	found	found	znale¼æ
+fit	fit	fit	pasowaæ
+flee	fled	fled	uciekaæ, zbiec
+fling	flung	flung	ciskaæ, rzucaæ
+fly	flew	flown	lataæ
+forbid	forbade	forbidden	zakazaæ
+forecast	forecast	forecast	zapowiadaæ, przepowiadaæ
+forget	forgot	forgotten	zapominaæ, zapomnieæ
+forgive	forgave	forgiven	wybaczaæ
+forsake	forsook	forsaken	porzucaæ
+freeze	froze	frozen	zamarzaæ, mroziæ
+get	got	gotten	dostaæ
+get	got	got	dostaæ
+give	gave	given	dawaæ
+go	went	gone	i¶æ
+grind	ground	ground	mleæ, kruszyæ
+grow	grew	grown	rosn±æ
+hang	hung	hung	powiesiæ
+have	had	had	mieæ
+hear	heard	heard	s³yszeæ
+hew	hewed	hewn	r±baæ
+hide	hid	hidden	schowaæ, skrywaæ
+hit	hit	hit	uderzyæ, uderzaæ
+hold	held	held	trzymaæ
+hurt	hurt	hurt	raniæ
+keep	kept	kept	trzymaæ, zachowaæ
+kneel	knelt	knelt	klêczeæ
+knit	knit	knit	robiæ na drutach
+know	knew	known	wiedzieæ
+lay	laid	laid	k³a¶æ
+lead	led	led	prowadziæ
+lean	leant	leant	pochylaæ siê
+leap	leapt	leapt	skakaæ
+learn	learnt	learnt	uczyæ siê
+leave	left	left	zostawiaæ, wychodziæ
+lend	lent	lent	po¿yczaæ
+let	let	let	pozwoliæ
+lie	lay	lain	le¿eæ
+light	lit	lit	o¶wietlaæ, zapalaæ
+lose	lost	lost	gubiæ
+make	made	made	robiæ
+mean	meant	meant	znaczyæ, oznaczaæ
+meet	met	met	spotkaæ
+mistake	mistook	mistaken	pomyliæ
+mow	mowed	mown	kosiæ
+pay	paid	paid	p³aciæ
+plead	pled	pled	b³agaæ
+prove	proved	proved	udowadniaæ, wykazaæ
+prove	proved	proven	udowadniaæ, wykazaæ
+put	put	put	k³a¶æ
+quit	quit	quit	zrezygnowaæ
+read	read	read	czytaæ
+rend	rent	rent	drzeæ
+rid	rid	rid	oczy¶ciæ, pozbyæ siê
+ride	rode	ridden	je¼dziæ
+ring	rang	rung	dzwoniæ
+rise	rose	risen	rosn±æ, wzrastaæ
+run	ran	run	biec
+saw	sawed	sawn	pi³owaæ
+see	saw	seen	widzieæ
+seek	sought	sought	szukaæ
+sell	sold	sold	sprzedawaæ
+send	sent	sent	wysy³aæ
+set	set	set	nastawiæ
+sew	sewed	sewn	szyæ
+shake	shook	shaken	trz±¶æ
+shear	shore	shorn	strzyc
+shed	shed	shed	zrzucaæ z siebie, pozbywaæ siê, traciæ (np. w³osy)
+shine	shone	shone	¶wieciæ, pob³yskiwaæ, l¶niæ
+shoe	shod	shod	obuæ
+shoot	shot	shot	strzelaæ
+show	showed	shown	pokazywaæ
+shrink	shrank	shrunk	kurczyæ siê
+shut	shut	shut	zamykaæ
+sing	sang	sung	¶piewaæ
+sink	sank	sunk	ton±æ
+sit	sat	sat	siadaæ, siedzieæ
+slay	slew	slain	zabijaæ, powalaæ
+sleep	slept	slept	spaæ
+slide	slid	slid	¶lizgaæ siê
+sling	slung	slung	podwiesiæ
+slit	slit	slit	rozcinaæ
+smell	smelt	smelt	pachnieæ
+sow	sowed	sown	siaæ, wysiewaæ
+speak	spoke	spoken	mówiæ
+speed	sped	sped	spieszyæ siê, pêdziæ
+spell	spelt	spelt	przeliterowaæ
+spend	spent	spent	spêdzaæ, wydawaæ
+spill	spilt	spilt	rozlewaæ
+spin	spun	spun	prz±¶æ, wirowaæ, obracaæ siê
+spit	spat	spat	pluæ
+split	split	split	dzieliæ, rozdzielaæ, rozszczepiaæ
+spoil	spoilt	spoilt	psuæ
+spread	spread	spread	rozk³adaæ, rozpo¶cieraæ, rozci±gaæ, rozpowszechniaæ
+spring	sprang	sprung	skakaæ
+stand	stood	stood	staæ
+steal	stole	stolen	kra¶æ
+stick	stuck	stuck	wtykaæ, przyklejaæ
+sting	stung	stung	k³uæ, u¿±dliæ
+stink	stank	stunk	¶mierdzieæ, cuchn±æ
+strew	strewed	strewn	porozrzucaæ
+stride	strode	stridden	przekraczaæ, kroczyæ
+strike	struck	struck	uderzaæ
+string	strung	strung	naci±gaæ
+strive	strove	striven	usi³owaæ, d±¿yæ do czego¶
+swear	swore	sworn	kl±æ, przeklinaæ
+sweep	swept	swept	zamiataæ
+swell	swelled	swollen	napuchn±æ, nabrzmiewaæ
+swim	swam	swum	p³ywaæ
+swing	swung	swung	ko³ysaæ siê, machaæ czym¶
+take	took	taken	braæ
+teach	taught	taught	nauczaæ
+tear	tore	torn	rwaæ, drzeæ
+tell	told	told	opowiadaæ
+think	thought	thought	my¶leæ
+thrive	throve	thriven	dobrze siê rozwijaæ
+throw	threw	thrown	rzucaæ
+thrust	thrust	thrust	d¼gaæ, wbiæ
+tread	trod	trodden	deptaæ, st±paæ
+wake	woke	woken	budziæ siê
+wear	wore	worn	nosiæ, mieæ na sobie
+weave	wove	woven	tkaæ, wplataæ
+wet	wet	wet	zwil¿aæ
+win	won	won	wygraæ
+wind	wound	wound	nawijaæ, obwijaæ, zwijaæ
+wring	wrung	wrung	wykrêcaæ, wyciskaæ
+write	wrote	written	pisaæ
+

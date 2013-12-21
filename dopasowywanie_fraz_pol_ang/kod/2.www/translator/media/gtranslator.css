@@ -1,0 +1,258 @@
+
+a:link, .q:visited, .q:link, .q:active {
+color : #00c;
+}
+a:visited {
+color : #551a8b;
+}
+a:active {
+color : #f00;
+}
+.tabbar {
+background-color : #e5ecf9;
+}
+.tab {
+background-color : #e5ecf9;
+border-bottom : 1px solid #36c;
+padding : 0 1.3em;
+font-weight : bold;
+white-space : nowrap;
+font-family : arial, sans-serif;
+font-size : 83%;
+}
+.active {
+background-color : #fff;
+color : #000;
+border : 1px solid #36c;
+border-bottom : 1px solid #fff;
+}
+.tab_footer {
+border-top : 1px solid #ccc;
+padding-top : 1em;
+width : 98%;
+}
+html > body .goog-inline-block {
+display : inline-block;
+}
+.goog-inline-block {
+position : relative;
+display : inline-block;
+}
+* html .goog-inline-block {
+display : inline;
+}
+*:first-child + html .goog-inline-block {
+display : inline;
+}
+.goog-menuseparator {
+position : relative;
+margin : 2px 0;
+border-top : 1px solid #999;
+padding : 0;
+outline : none;
+}
+.goog-menu {
+position : absolute;
+color : #000;
+border : 1px solid #b5b6b5;
+background-color : #fff;
+cursor : default;
+font : normal 1em arial, helvetica, sans-serif;
+margin : 0;
+padding : 0;
+outline : none;
+height : 250px;
+overflow : auto;
+}
+.goog-menuitem {
+padding : 2px 1.5em 2px 5px;
+margin : 0;
+list-style : none;
+}
+.goog-menuitem-rtl {
+padding : 2px 5px 2px 1.5em;
+}
+.goog-menuitem-highlight {
+background-color : #4279a5;
+color : #fff;
+}
+.goog-menu-button, .goog-custom-button {
+border : 0;
+padding : 0;
+color : #000;
+background : #ddd url("http://www.google.com/images/button-bg.gif") repeat-x top left;
+text-decoration : none;
+list-style : none;
+vertical-align : middle;
+cursor : pointer;
+outline : none;
+}
+.goog-menu-button-outer-box, .goog-menu-button-inner-box, .goog-custom-button-outer-box, .goog-custom-button-inner-box {
+border-style : solid;
+border-color : #aaa;
+vertical-align : top;
+}
+.goog-menu-button-outer-box, .goog-custom-button-outer-box {
+margin : 0;
+border-width : 1px 0;
+padding : 0;
+}
+.goog-menu-button-inner-box {
+margin : 0 -1px;
+border-width : 0 1px;
+padding : 3px 4px;
+}
+.goog-custom-button-inner-box {
+margin : 0 -1px;
+border-width : 0 1px;
+padding : 3px 4px;
+font-weight : bold;
+}
+* html .goog-menu-button-inner-box, * html .goog-custom-button-inner-box {
+left : -1px;
+}
+* html .goog-menu-button-rtl .goog-menu-button-outer-box, * html .goog-custom-button-rtl .goog-custom-button-outer-box {
+left : -1px;
+}
+* html .goog-menu-button-rtl .goog-menu-button-inner-box, * html .goog-custom-button-rtl .goog-custom-button-inner-box {
+left : 0;
+}
+*:first-child + html .goog-menu-button-inner-box, *:first-child + html .goog-custom-button-inner-box {
+left : -1px;
+}
+*:first-child + html .goog-menu-button-rtl .goog-menu-button-inner-box, *:first-child + html .goog-custom-button-rtl .goog-custom-button-inner-box {
+left : 1px;
+}
+.goog-menu-button-hover .goog-menu-button-outer-box, .goog-menu-button-hover .goog-menu-button-inner-box, .goog-custom-button-hover .goog-custom-button-outer-box, .goog-custom-button-hover .goog-custom-button-inner-box {
+border-color : #7ac #36c #36c #57a !important ;
+}
+.goog-menu-button-active, .goog-menu-button-open, .goog-custom-button-active, .goog-custom-button-open {
+background-color : #bbb;
+background-position : bottom left;
+}
+.goog-menu-button-focused .goog-menu-button-outer-box, .goog-menu-button-focused .goog-menu-button-inner-box, .goog-custom-button-focused .goog-custom-button-outer-box, .goog-custom-button-focused .goog-custom-button-inner-box {
+border-color : orange;
+}
+.goog-menu-button-caption {
+padding : 0 4px 0 0;
+vertical-align : top;
+}
+.goog-menu-button-rtl .goog-menu-button-caption {
+padding : 0 0 0 4px;
+}
+.goog-menu-button-dropdown {
+width : 7px;
+background : url(http://www.google.com/images/droparrow.gif) no-repeat;
+vertical-align : top;
+}
+#header table td {
+border-top : 1px solid #36c;
+padding-right : 4px;
+}
+body {
+font : normal 10pt Arial, sans-serif;
+}
+#pagetitle {
+font-size : larger;
+}
+#navlinks {
+font-size : smaller;
+}
+#source, input#url {
+width : 100%;
+}
+form {
+padding-bottom : 0;
+margin-bottom : 0;
+padding-top : 0;
+margin-top : 0;
+}
+#source {
+height : 99%;
+overflow : auto;
+}
+option.line-below {
+border-bottom : 1px solid #ddd;
+margin-bottom : -1px;
+}
+table#texttable, table#webtable, table#suggesttable {
+width : 100%;
+}
+h1 {
+background-color : #e5ecf9;
+padding : 4px 6px;
+margin : 1em 0;
+font-size : 1.3em;
+}
+#texttable table {
+padding : 0;
+margin : 0;
+}
+#texttable table td {
+padding : 0;
+margin : 0;
+}
+#suggestion {
+width : 100%;
+}
+#selectcell {
+width : 100%;
+}
+#utranscell {
+width : 100%;
+}
+#suggestion_form {
+width : 100%;
+}
+#result_box, #source {
+font-family : monospace;
+font-size : 10pt;
+}
+#result_box {
+padding-top : 3px;
+padding-bottom : 3px;
+}
+.almost_half_cell {
+width : 49%;
+}
+#gap {
+width : 2%;
+height : 128px;
+}
+#original_text, #autotrans {
+font-size : smaller;
+}
+#zippyspan {
+color : #77c;
+cursor : pointer;
+text-decoration : underline;
+font-size : smaller;
+}
+#thanks {
+text-align : center;
+overflow : hidden;
+font-weight : bold;
+font-size : smaller;
+}
+.highlight {
+background-color : #f5f5f5;
+}
+.footer {
+border-top : 1px solid #ccc;
+padding-top : 1em;
+margin-top : 5em;
+text-align : center;
+}
+.submitcell {
+font-size : smaller;
+}
+.arrow {
+font-size : 1.5em;
+vertical-align : -1px;
+}
+.langselect {
+margin : 2px;
+}
+.subbutton {
+margin : 2px 2px 2px 6px;
+}

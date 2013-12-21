@@ -1,0 +1,1 @@
+python pol.py teksty

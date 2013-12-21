@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+@1. Present Continues 
+
+patern ang: <podmiot> + <be-present> + <orzeczenie> + <[-ing]> + [<fraza orzeczeniowa>]*
+patern pol: <podmiot> + <orzeczenie> + [<fraza orzeczeniowa>]*
+
+<be-present> := [am, are, is]
+
+ex: he is working now => on pracuje teraz
+
+-------------------------------------------------------------------------------
+@2. Present Continues Question
+
+patern ang: <be-present> + <podmiot> + <orzeczenie> + <[-ing]> + [<fraza orzeczeniowa>]* + [<?>]*
+patern pol: <[czy]> + <podmiot> + <orzeczenie> + [<fraza orzeczeniowa>]* + [<?>]*
+
+<be-present> := [am, are, is]
+
+ex: is he working now? => czy on pracuje teraz?
+
+-------------------------------------------------------------------------------
+@3. Present Continues Negativ
+
+patern ang: <podmiot> + <be-present> + <[not]> + <orzeczenie> + <[-ing]> + [<fraza orzeczeniowa>]*
+patern pol: <podmiot> + <[nie]> + <orzeczenie> + [<fraza orzeczeniowa>]*
+
+<be-present> := [am, are, is]
+
+ex: he is not working now? =>  on nie pracuje teraz?
+
+

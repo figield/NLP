@@ -1,0 +1,435 @@
+
+
+Zdanie: para walutowa usdjpy prze³ama³a
+
+Org:para
+Podst:par,paraæ,para,
+Pol2Ang:twosome,par,vapor,paraæ,damp,steam,peer,pair,dyad,reek,couple,match,vapour,
+
+Org:walutowa
+Podst:walutowa,walutowy,
+Pol2Ang:financial,monetary,walutowa,
+
+Org:usdjpy
+Podst:usdjpy,
+Pol2Ang:usdjpy,
+
+Org:prze³ama³a
+Podst:prze³ama³a,prze³amaæ,
+Pol2Ang:to impose,to break,prze³ama³a,
+
+Zdanie: poziom wsparcia
+
+Org:poziom
+Podst:poziom,
+Pol2Ang:level,deck,standard,step,pitch,cheap jokes,
+
+Org:wsparcia
+Podst:wsparcia,wsparcie,
+Pol2Ang:backing,assistance,back-up,reinforcements,reassurance,wsparcia,aid,support,
+
+Zdanie: para walutowa usdjpy znajduje siê w konsolidacji po ostatnim ruchu spadkowym
+
+Org:para
+Podst:par,paraæ,para,
+Pol2Ang:twosome,par,vapor,paraæ,damp,steam,peer,pair,dyad,reek,couple,match,vapour,
+
+Org:walutowa
+Podst:walutowa,walutowy,
+Pol2Ang:financial,monetary,walutowa,
+
+Org:usdjpy
+Podst:usdjpy,
+Pol2Ang:usdjpy,
+
+Org:znajduje
+Podst:znajdowaæ,znajduje,znajdywaæ,
+Pol2Ang:reside,sit,stand,happen,znajduje,find,znajdywaæ,
+
+Org:siê
+Podst:siê,
+Pol2Ang:himself,herself,oneself,one another,
+
+Org:w
+Podst:w,
+Pol2Ang:on,for,into,within,in to,at,in,during,
+
+Org:konsolidacji
+Podst:konsolidacja,konsolidacji,
+Pol2Ang:konsolidacji,funding,consolidation,linking,
+
+Org:po
+Podst:po,
+Pol2Ang:on,for,over,after,to,apiece,at,in,post,
+
+Org:ostatnim
+Podst:ostatnim,ostatni,
+Pol2Ang:lowest,endmost,hindmost,last,bottom,past,latter,ostatnim,the latter,late,good-for-nothing,utter,recent,latest,end,closing,rearmost,final,last-ditch,
+
+Org:ruchu
+Podst:ruch,ruchu,
+Pol2Ang:peristalsis,fluctuation,move,ruchu,motion,step,traffic,action,locomotion,movement,
+
+Org:spadkowym
+Podst:spadkowym,spadkowy,
+Pol2Ang:spadkowym,legacy,inheritance,declining,decreasing,
+
+Zdanie: zmienno¶æ spada
+
+Org:zmienno¶æ
+Podst:zmienno¶æ,
+Pol2Ang:variability,mutability,fickleness,inconstancy,vicissitudes,changeability,flux,unsteadiness,vicissitude,
+
+Org:spada
+Podst:spada,spadaæ,
+Pol2Ang:plunge,thrown,bate,plummet,throve,alight,undo,to fall,fell,descend,fall,spada,threw,throw,swoop,
+
+Zdanie: wstêga bollingera jest zawê¿ona
+
+Org:wstêga
+Podst:wstêga,
+Pol2Ang:band,wisp,sash,ribbon,coil,
+
+Org:bollingera
+Podst:bollingera,
+Pol2Ang:bollingera,
+
+Org:jest
+Podst:byæ,jest,
+Pol2Ang:be,shall,is,am,will,are,jest,were,to come,to be,present,
+
+Org:zawê¿ona
+Podst:zawê¿ony,zawê¿ona,
+Pol2Ang:zawê¿ony,zawê¿ona,
+
+Zdanie: forextrend
+
+Org:forextrend
+Podst:forextrend,
+Pol2Ang:forextrend,
+
+Zdanie: indykator trendu biura maklerskiego mataf
+
+Org:indykator
+Podst:indykator,
+Pol2Ang:indicator,
+
+Org:trendu
+Podst:trend,trendu,
+Pol2Ang:trend,trendu,tendency,
+
+Org:biura
+Podst:biura,biuro,
+Pol2Ang:personnel,biura,bureau,office,
+
+Org:maklerskiego
+Podst:maklerskiego,maklerski,
+Pol2Ang:maklerskiego,brokerage,stockbroking,
+
+Org:mataf
+Podst:mataf,
+Pol2Ang:mataf,
+
+Zdanie: wskazuje na rynek nied¼wiedzia
+
+Org:wskazuje
+Podst:wskazywaæ,wskazuje,
+Pol2Ang:indicate,implicate,wskazuje,designate,
+
+Org:na
+Podst:na,
+Pol2Ang:on,via,upstairs downstairs,for,over,upon,against,to,at,in,along,onto,into,unto,per,
+
+Org:rynek
+Podst:rynek,rynka,
+Pol2Ang:marker,marketplace,plaza,rynka,market,
+
+Org:nied¼wiedzia
+Podst:nied¼wiedzi,nied¼wiedzia,nied¼wied¼,
+Pol2Ang:hairy,bearskin,nied¼wiedzia,bearing,bearish,bear,ursine,born,bore,bear-shaped,
+
+Zdanie: cena powinna nadal poruszaæ siê wewn±trz
+
+Org:cena
+Podst:cena,
+Pol2Ang:price,value,prix,rate,cost,valuation,worth,
+
+Org:powinna
+Podst:powinien,powinna,
+Pol2Ang:ought to,powinna,should,
+
+Org:nadal
+Podst:nadal,
+Pol2Ang:still,
+
+Org:poruszaæ
+Podst:poruszaæ,
+Pol2Ang:activate,raise,wag,move,agitate,broach,moot,operate,stir,
+
+Org:siê
+Podst:siê,
+Pol2Ang:himself,herself,oneself,one another,
+
+Org:wewn±trz
+Podst:wewn±trz,
+Pol2Ang:intra-,internally,inside,within,inwardly,indoors,inner,in,inboard,inwards,
+
+Zdanie: przedzia³u
+
+Org:przedzia³u
+Podst:przedzia³u,przedzia³,
+Pol2Ang:division,interval,span,gulf,section,partition,range,band,difference,przedzia³u,stateroom,time bracket,compartment,parting,bracket,
+
+Zdanie: nie zajmowaliby¶my pozycji
+
+Org:nie
+Podst:on,ona,ono,nie,
+Pol2Ang:uncertainly,dont,her,that,no,it,un,she,neither,not,miscarry,nope,him,he,
+
+Org:zajmowaliby¶my
+Podst:zajmowaæ,zajmowaliby¶my,
+Pol2Ang:engage,recline,occupy,zajmowaliby¶my,take,concern,impound,
+
+Org:pozycji
+Podst:pozycja,pozycji,
+Pol2Ang:status,pozycji,subentry,stance,title,listing,range,item,attitude,station,significant,entry,position,production,pizza,
+
+Zdanie: stosunek zysku do ryzyka jest zbyt wysoki
+
+Org:stosunek
+Podst:stosunek,
+Pol2Ang:bearing,term,ratio,affair,intercourse,screw,contacts,production relations,liaison,relations,sex,connections,attitude,relation,venery,coitus,conditions,quotient,
+
+Org:zysku
+Podst:zysku,zysk,
+Pol2Ang:booty,advantage,lucre,profit,zysku,yield,proceeds,benefit,gain,increment,earning,
+
+Org:do
+Podst:do,
+Pol2Ang:doh,towards,for,to,into,by,till,in,with,until,
+
+Org:ryzyka
+Podst:ryzyka,ryzyko,
+Pol2Ang:ryzyka,venture,hazard,gamble,risk,
+
+Org:jest
+Podst:byæ,jest,
+Pol2Ang:be,shall,is,am,will,are,jest,were,to come,to be,present,
+
+Org:zbyt
+Podst:zbyt,
+Pol2Ang:marker,market,sale,consumption,too,
+
+Org:wysoki
+Podst:wysoki,
+Pol2Ang:high-pitched,exalted,big,boot,high,towering,tall,lofty,
+
+Zdanie: aby zaj±æ pozycjê
+
+Org:aby
+Podst:aby,
+Pol2Ang:to,so that,only to,for,
+
+Org:zaj±æ
+Podst:zaj±æ,
+Pol2Ang:expropriate,seize,to distrain,to occupy,to fill,to absorb,to take,
+
+Org:pozycjê
+Podst:pozycjê,pozycja,
+Pol2Ang:status,position,subentry,stance,title,range,pozycjê,item,attitude,station,significant,listing,entry,production,pizza,
+
+Zdanie: usd jpy broke
+
+Org(ang):usd
+Podst:usd,
+
+Org(ang):jpy
+Podst:jpy,
+
+Org(ang):broke
+Podst:break,broke,
+
+Zdanie: support
+
+Org(ang):support
+Podst:support,
+
+Zdanie: usd jpy is in a consolidation after the last bearish movement
+
+Org(ang):usd
+Podst:usd,
+
+Org(ang):jpy
+Podst:jpy,
+
+Org(ang):is
+Podst:be,is,
+
+Org(ang):in
+Podst:in,
+
+Org(ang):a
+Podst:a,
+
+Org(ang):consolidation
+Podst:consolidation,
+
+Org(ang):after
+Podst:after,
+
+Org(ang):the
+Podst:the,
+
+Org(ang):last
+Podst:last,
+
+Org(ang):bearish
+Podst:bearish,
+
+Org(ang):movement
+Podst:movement,
+
+Zdanie: the volatility decreases
+
+Org(ang):the
+Podst:the,
+
+Org(ang):volatility
+Podst:volatility,
+
+Org(ang):decreases
+Podst:decreases,
+
+Zdanie: bollinger bands are tightened
+
+Org(ang):bollinger
+Podst:bollinger,
+
+Org(ang):bands
+Podst:bands,
+
+Org(ang):are
+Podst:are,
+
+Org(ang):tightened
+Podst:tighten,tightened,
+
+Zdanie: forextrend
+
+Org(ang):forextrend
+Podst:forextrend,
+
+Zdanie: mataf trend indicator
+
+Org(ang):mataf
+Podst:mataf,
+
+Org(ang):trend
+Podst:trend,
+
+Org(ang):indicator
+Podst:indicator,
+
+Zdanie: is in a bearish configuration
+
+Org(ang):is
+Podst:be,is,
+
+Org(ang):in
+Podst:in,
+
+Org(ang):a
+Podst:a,
+
+Org(ang):bearish
+Podst:bearish,
+
+Org(ang):configuration
+Podst:configuration,
+
+Zdanie: the price should continue to move in
+
+Org(ang):the
+Podst:the,
+
+Org(ang):price
+Podst:price,
+
+Org(ang):should
+Podst:should,
+
+Org(ang):continue
+Podst:continue,
+
+Org(ang):to
+Podst:to,
+
+Org(ang):move
+Podst:move,
+
+Org(ang):in
+Podst:in,
+
+Zdanie: range
+
+Org(ang):range
+Podst:range,
+
+Zdanie: we will not take a position
+
+Org(ang):we
+Podst:we,
+
+Org(ang):will
+Podst:will,
+
+Org(ang):not
+Podst:not,
+
+Org(ang):take
+Podst:take,
+
+Org(ang):a
+Podst:a,
+
+Org(ang):position
+Podst:position,
+
+Zdanie: the risk
+
+Org(ang):the
+Podst:the,
+
+Org(ang):risk
+Podst:risk,
+
+Zdanie: reward ratio is too high to take a position
+
+Org(ang):reward
+Podst:reward,
+
+Org(ang):ratio
+Podst:ratio,
+
+Org(ang):is
+Podst:be,is,
+
+Org(ang):too
+Podst:too,
+
+Org(ang):high
+Podst:high,
+
+Org(ang):to
+Podst:to,
+
+Org(ang):take
+Podst:take,
+
+Org(ang):a
+Podst:a,
+
+Org(ang):position
+Podst:position,
+
+Znalezionych fraz: 17 
